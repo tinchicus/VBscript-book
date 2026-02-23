@@ -15,5 +15,6 @@ texto = texto & "Year: " & ano & vbCrLf
 texto = texto & "WeekDay: " & diaSem & vbCrLf
 texto = texto & "MonthName: " & nombreMes & vbCrLf
 texto = texto & "WeekDayName: " & diaNom & vbCrLf
+texto = texto & diaNom & ", " & dia & " de " & nombreMes & " del " & ano
 
 msgbox texto,,"Todos los tipos de estructuras"
