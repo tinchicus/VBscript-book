@@ -5,7 +5,7 @@ cuenta = inputbox("Ingresa el usuario", titulo)
 
 chequeo = FindUser(cuenta, uDominio)
 
-if chequeo <> "Not found" then
+if chequeo <> "Not Found" then
 
 d = split(chequeo, ",")
 c = d(0) & "," & d(1)
