@@ -6,7 +6,7 @@ cuenta = inputbox("Ingresa el usuario", titulo)
 
 chequeo = FindUser("b-" & cuenta, uDominio)
 
-if chequeo <> "Not found" then
+if chequeo <> "Not Found" then
         
         Set objUser = GetObject(chequeo)
         
