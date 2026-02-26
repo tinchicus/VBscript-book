@@ -7,7 +7,7 @@ motivo = inputbox("Ingresa el motivo", titulo)
 
 chequeo = FindUser(cuenta, uDominio)
 
-if chequeo <> "Not found" then
+if chequeo <> "Not Found" then
         ahora = now
         ano = datepart("yyyy", ahora)
         mes = datepart("m", ahora)
